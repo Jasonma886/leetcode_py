@@ -20,6 +20,7 @@ def lenLongestFibSubseq(A):
     return res
 
 class Solution(object):
+    # 动态规划(dp)
     def lenLongestFibSubseq(self, A):
         dp = defaultdict(int)
         s = set(A)
